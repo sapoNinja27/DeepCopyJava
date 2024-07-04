@@ -1,37 +1,37 @@
-# DeepClone Project
+# DeepCopy Project
 
 ## Description
 
-This project provides a function for performing a deep clone of a Java object. The deep clone function is tested within the `Test` class.
+This project provides a function for performing a deep copy of a Java object. The deep copy function is tested within the `Test` class.
 
 ## Getting Started
 
 ### Installation
 
-1. Clone the repository:
+1. Copy the repository:
    ```bash
-   git clone https://github.com/sapoNinja27/DeepCopyJava.git 
+   git copy https://github.com/sapoNinja27/DeepCopyJava.git 
 
 
 ### Usage
 
-1. Create an instance of the class you want to deep clone.
+1. Create an instance of the class you want to deep copy.
 
-2. Call the deepClone method to create a deep copy of the instance.
+2. Call the deepCopy method to create a deep copy of the instance.
 
-3. The Test class includes test cases that demonstrate how to use the deepClone function.
+3. The Test class includes test cases that demonstrate how to use the deepCopy function.
 
 ### Example
-Here is an example of how to use the deep clone function:
+Here is an example of how to use the deep copy function:
 
 ```java
 public class Main {
     public static void main(String[] args) {
         TestObject original = new TestObject(/* initialize fields */);
-        TestObject cloned = DeepClone.deepClone(original);
+        TestObject copyd = DeepCopy.deepCopy(original);
 
-        // Verify the deep clone
+        // Verify the deep copy
         System.out.println("Original: " + original);
-        System.out.println("Cloned: " + cloned);
+        System.out.println("Copyd: " + copyd);
     }
 }
